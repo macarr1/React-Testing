@@ -1,0 +1,51 @@
+
+.container {
+    
+  }
+
+.subtitle {
+    font-size: 10px;
+  
+  }
+  
+  .title {
+    font-size: 14px;
+    float: left;
+    width: 49%;
+  }
+
+  .title p {
+    float: left;
+  }
+
+  .image {
+    float: right;
+    width: 49%;
+  }
+  .image a {
+    height: 80px;
+    width: 100px;
+    float: right;
+  }
+
+  .modal {
+    overflow: auto;
+    overflow-y: scroll;
+    text-align: left;
+    padding: 0;
+  }
+
+  ion-spinner {
+    stroke: #ff0000;
+    fill: #8b0000;
+    position: fixed;
+    z-index: 999;
+    height: 5em;
+    width: em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
