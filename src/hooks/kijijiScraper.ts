@@ -27,9 +27,9 @@ export function KijijiScraper() {
     };
      
     let params = {
-        locationId: 1700273,  // Same as kijiji.locations.ONTARIO.OTTAWA_GATINEAU_AREA.OTTAWA
-        categoryId: 772,  // Same as kijiji.categories.CARS_AND_VEHICLES
-        sortByName: "dateDesc"  // Show the cheapest listings first
+        locationId: 1700273,  // Toronto
+        categoryId: 772,  // Desktop computers
+        sortByName: "dateDesc"  // Newest listings
     };
      
     const reload = async () => {
